@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-big-shoulders: 'Big Shoulders Display', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+
+  /* COLORS */
+  --color-header: #0d182e;
+  --color-primary: #035a9d;
+  --color-title: #32cd32;
+  --color-primary-hover: #024a81;
+  --color-border: #252F42;
+  --color-textarea: #eff0f4;
+  --color-page: #f5f5f5;
+  --color-text: #252525;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-page);
+  color: var(--color-text);
+  font-family: Inter, system-ui, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
