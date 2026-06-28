@@ -1,5 +1,5 @@
 export const fetchTranslation = async (text, language) => {
-  const response = await fetch(import.meta.env.VITE_WORKER_URL, {
+  const response = await fetch('https://worker.rahimaansari98.workers.dev', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
